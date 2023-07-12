@@ -1,6 +1,6 @@
 import os
 
-folder_path = '/stable-diffusion-for-gui/extensions/sd-webui-controlnet'
+folder_path = '/extensions/sd-webui-controlnet'
 
 # Memastikan bahwa folder ada sebelum menghapusnya
 if os.path.exists(folder_path):
