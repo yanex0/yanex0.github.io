@@ -1,0 +1,53 @@
+html {
+  background: linear-gradient(90deg, #ff0aff, #21deff);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  }
+
+@keyframes gradientAnimation {
+  0% { 
+    background-position: 0% 50%; 
+  }
+  50% { 
+    background-position: 100% 50%; 
+  }
+  100% { 
+    background-position: 0% 50%; 
+  }
+}
+  
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.profile-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #5CE6FF, #FF5722); /* Gradien warna latar belakang */
+  color: black; /* Warna teks putih untuk kontras */
+  margin: 0 auto;
+}
+
+.profile-card img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profile-card h2 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.profile-card p {
+  color: black; /* Warna teks putih untuk kontras */
+  margin-top: 5px;
+}
